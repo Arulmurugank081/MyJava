@@ -1,0 +1,14 @@
+
+public class WoodenDuck extends Duck{
+	/*public WoodenDuck(FlyableBehavior flyable,QuakBehavior quakable) {
+		// TODO Auto-generated constructor stub
+		super(flyable,quakable);
+		
+	}*/
+
+	public void Display()
+	{
+		System.out.println("This is wooden duck");
+	}
+	
+}

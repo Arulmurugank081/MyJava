@@ -1,0 +1,107 @@
+import java.util.*;
+public class LoopDemo {
+	
+	public static void main(String [] agr)
+	{
+		LoopDemo l = new LoopDemo();
+		//l.Fact();
+		//Display Digit 
+		//l.Digit();
+		
+		//Display Digit count
+		//l.DigitCount();
+		
+		//Armstron number or not ex: 153 - > 3 *3 + 5 *3 + 1 *1 = 153
+		l.ArmstrogNum();
+		
+		
+		
+		
+	}
+	
+	public void Fact()
+	{
+		System.out.println("Enter the number for factorial ");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int fact = 1;
+		
+		for( int i =1 ; i <= n; i++)
+		{
+			fact = fact * i;				
+		}
+		
+		System.out.println(fact);
+		
+	}
+	
+	public void Digit()
+	{
+		System.out.println("Enter the Digit");
+		Scanner sc = new Scanner(System.in);
+		int d = sc.nextInt();
+		
+		while(d > 0)
+		{
+			int num = d % 10;
+			System.out.println(num);
+			d = d / 10;
+		}	
+	}
+	
+	public void DigitCount()
+	{
+		System.out.println("Enter the Digit");
+		Scanner sc = new Scanner(System.in);
+		int d = sc.nextInt();
+		int t = 0;
+		
+		while(d > 0)
+		{
+			int num = d % 10;
+			t += num;
+			System.out.println(num);
+			d = d / 10;
+		}
+		System.out.println("Total :" + t);		
+     }
+	
+	public void ArmstrogNum()
+	{
+		System.out.println("Enter the Digit");
+		Scanner sc = new Scanner(System.in);
+		int d = sc.nextInt();
+		int c = 0;
+		int t = d;
+		
+		while(t > 0)
+		{	
+			t = t / 10;
+			c++;
+		}
+		System.out.println("Count :" + c);
+		
+		int sum = 0;
+		t = d;
+		while(t > 0)
+		{
+			int num = t % 10;
+			sum += (num * c);
+			System.out.println(num);
+			t = t / 10;
+		}
+		
+		System.out.println("Sum" + sum);
+		
+		if(sum == d)
+		{
+		  System.out.println("The given num is Armstrong");
+		}
+		else
+		{
+			System.out.println("Not Armstrong");
+		}
+     }
+		
+
+}

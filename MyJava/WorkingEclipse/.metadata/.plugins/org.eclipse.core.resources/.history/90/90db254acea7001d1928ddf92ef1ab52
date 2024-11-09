@@ -1,0 +1,22 @@
+
+public class Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {1,2,3,4,5};
+		Method m = new Method();
+		Modify(a);
+		
+		for(int x: a)
+		{
+			System.out.println(x);
+		}
+		
+	}
+	
+	static void Modify(int[] str)
+	{
+		str[0] = 50;
+	}
+
+}

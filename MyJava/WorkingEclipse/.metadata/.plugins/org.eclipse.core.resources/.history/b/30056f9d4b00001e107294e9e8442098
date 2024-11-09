@@ -1,0 +1,12 @@
+
+public class RubberDuck extends Duck {
+	
+	/*public RubberDuck(FlyableBehavior flyable, QuakBehavior quak) {
+		// TODO Auto-generated constructor stub
+		super(flyable, quak);
+	} */
+	public void Display() {
+		System.out.println("This is Rubber Duck");		
+	}
+	
+}

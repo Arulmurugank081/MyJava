@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="MyPack1.inner.MyPack1"/>
+    <fullyQualifiedTypeName name="MyPack.MyPack"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="MinBal"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="StackOverFlowExption"/>
+    <fullyQualifiedTypeName name="StackUnderFlowExption"/>
+    <fullyQualifiedTypeName name="MyThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="Duck"/>
+    <fullyQualifiedTypeName name="Fly"/>
+    <fullyQualifiedTypeName name="FlyableBehavior"/>
+    <fullyQualifiedTypeName name="QuakBehavior"/>
+    <fullyQualifiedTypeName name="RubberDuck"/>
+    <fullyQualifiedTypeName name="Quak"/>
+</qualifiedTypeNameHistroy>

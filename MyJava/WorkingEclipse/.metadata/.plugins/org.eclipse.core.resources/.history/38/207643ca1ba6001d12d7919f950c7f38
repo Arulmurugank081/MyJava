@@ -1,0 +1,13 @@
+import java.lang.*;
+
+public class ArrayDemo {
+	
+	public static void main(String [] arg)
+	{;
+	
+		int A[] = new int[10];
+		float B[] = {1,2,3,4,5,6};
+		System.out.println(B);
+	}
+
+}
